@@ -40,7 +40,7 @@
 						"paddingLeft": 0,
 						"paddingRight": 0,
 						"paddingTop": 0,
-						"widthType": "Fluid"
+						"widthType": "Fixed"
 					}
 				},
 				"pageElements": [
@@ -111,7 +111,8 @@
 																}
 															}
 														},
-														"fragmentLink": {}
+														"fragmentLink": {
+														}
 													}
 												}
 											],
@@ -156,13 +157,14 @@
 												{
 													"id": "element-text",
 													"value": {
-														"fragmentLink": {},
+														"fragmentLink": {
+														},
 														"text": {
 															"value_i18n": {
-																"en_US": "Producer Portal",
 																"ar_SA": "Producer Portal",
 																"ca_ES": "Producer Portal",
 																"de_DE": "Producer Portal",
+																"en_US": "Producer Portal",
 																"es_ES": "Producer Portal",
 																"fi_FI": "Producer Portal",
 																"fr_FR": "Producer Portal",
@@ -190,7 +192,8 @@
 												"iconLink": "",
 												"iconName": "search"
 											},
-											"fragmentFields": [],
+											"fragmentFields": [
+											],
 											"indexed": true
 										},
 										"type": "Fragment"
@@ -201,17 +204,18 @@
 												"key": "DIALECT-dialect-button"
 											},
 											"fragmentConfig": {
-												"uppercase": false,
+												"buttonSize": "",
+												"inverted": false,
 												"style": "primary",
 												"type": "ghost",
-												"inverted": false,
-												"buttonSize": ""
+												"uppercase": false
 											},
 											"fragmentFields": [
 												{
 													"id": "link",
 													"value": {
-														"fragmentLink": {},
+														"fragmentLink": {
+														},
 														"text": {
 															"value_i18n": {
 																"ar_SA": "SIGN IN",
@@ -272,15 +276,17 @@
 										"key": "DIALECT-dialect-nav"
 									},
 									"fragmentConfig": {
-										"orientation": "nav-horizontal",
+										"inverted": false,
 										"navType": "nav-primary",
-										"inverted": false
+										"orientation": "nav-horizontal"
 									},
-									"fragmentFields": [],
+									"fragmentFields": [
+									],
 									"indexed": true,
 									"widgetInstances": [
 										{
-											"widgetConfig": {},
+											"widgetConfig": {
+											},
 											"widgetName": "com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet"
 										}
 									]
@@ -289,6 +295,57 @@
 							}
 						],
 						"type": "Section"
+					}
+				],
+				"type": "Section"
+			},
+			{
+				"definition": {
+					"fragmentStyle": {
+						"borderWidth": "0",
+						"maxWidth": "1440px",
+						"paddingLeft": "80px",
+						"paddingRight": "80px"
+					},
+					"fragmentViewports": [
+						{
+							"fragmentViewportStyle": {
+								"paddingLeft": "24px",
+								"paddingRight": "24px"
+							},
+							"id": "landscapeMobile"
+						},
+						{
+							"fragmentViewportStyle": {
+								"paddingLeft": "40px",
+								"paddingRight": "40px"
+							},
+							"id": "tablet"
+						}
+					],
+					"indexed": true,
+					"layout": {
+						"borderWidth": 0,
+						"marginBottom": 0,
+						"marginLeft": 0,
+						"marginRight": 0,
+						"marginTop": 0,
+						"paddingBottom": 0,
+						"paddingLeft": 0,
+						"paddingRight": 0,
+						"paddingTop": 0,
+						"widthType": "Fixed"
+					}
+				},
+				"pageElements": [
+					{
+						"definition": {
+							"fragmentSettings": {
+								"unallowedFragments": [
+								]
+							}
+						},
+						"type": "DropZone"
 					}
 				],
 				"type": "Section"
@@ -304,10 +361,10 @@
 		},
 		"themeName": "Dialect",
 		"themeSettings": {
+			"lfr-theme:regular:show-footer": "false",
 			"lfr-theme:regular:show-header": "false",
-			"lfr-theme:regular:wrap-widget-page-content": "false",
 			"lfr-theme:regular:show-header-search": "false",
-			"lfr-theme:regular:show-footer": "false"
+			"lfr-theme:regular:wrap-widget-page-content": "false"
 		}
 	},
 	"version": 1.1

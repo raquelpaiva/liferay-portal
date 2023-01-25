@@ -16,8 +16,6 @@
 					"fragmentViewports": [
 						{
 							"fragmentViewportStyle": {
-								"marginLeft": "0",
-								"marginRight": "0",
 								"paddingLeft": "24px",
 								"paddingRight": "24px"
 							},
@@ -25,8 +23,6 @@
 						},
 						{
 							"fragmentViewportStyle": {
-								"marginLeft": "0",
-								"marginRight": "0",
 								"paddingLeft": "24px",
 								"paddingRight": "24px"
 							},
@@ -34,8 +30,6 @@
 						},
 						{
 							"fragmentViewportStyle": {
-								"marginLeft": "0",
-								"marginRight": "0",
 								"paddingLeft": "40px",
 								"paddingRight": "40px"
 							},
@@ -168,8 +162,7 @@
 																}
 															}
 														},
-														"fragmentLink": {
-														}
+														"fragmentLink": {}
 													}
 												}
 											],
@@ -203,8 +196,7 @@
 												{
 													"id": "element-text",
 													"value": {
-														"fragmentLink": {
-														},
+														"fragmentLink": {},
 														"text": {
 															"value_i18n": {
 																"ar_SA": "Partner Portal",
@@ -291,8 +283,7 @@
 					{
 						"definition": {
 							"fragmentSettings": {
-								"unallowedFragments": [
-								]
+								"unallowedFragments": []
 							}
 						},
 						"type": "DropZone"
