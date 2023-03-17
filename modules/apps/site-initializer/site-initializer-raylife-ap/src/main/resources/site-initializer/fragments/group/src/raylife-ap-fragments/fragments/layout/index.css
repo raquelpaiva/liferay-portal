@@ -138,6 +138,8 @@
 	cursor: pointer;
 }
 
+.layout-container #Account .header-content .search-icon,
+.layout-container #Notifications .header-content .search-icon,
 .layout-container #Details .header-content .search-icon {
 	display: none !important;
 }
