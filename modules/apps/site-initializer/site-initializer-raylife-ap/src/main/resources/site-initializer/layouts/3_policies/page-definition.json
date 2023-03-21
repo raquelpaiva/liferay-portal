@@ -29,11 +29,9 @@
 						"definition": {
 							"fragment": {
 								"key": "layout",
-								"siteKey": "Raylife AP 5"
+								"siteKey": "AP-SITE NOVO"
 							},
-							"fragmentConfig": {
-								"layoutName": "Policies"
-							},
+							"fragmentConfig": {"layoutName": "Policies"},
 							"fragmentFields": [],
 							"indexed": true
 						},
@@ -66,7 +64,7 @@
 												"definition": {
 													"fragment": {
 														"key": "avatar-dropdown-menu",
-														"siteKey": "RayLife Ap"
+														"siteKey": "AP-SITE NOVO"
 													},
 													"fragmentConfig": {},
 													"fragmentFields": [],
@@ -89,7 +87,7 @@
 												"widgetConfig": {
 													"properties": "route=notification-sidebar"
 												},
-												"widgetName": "[$CLIENT_EXTENSION_ENTRY_ID:RAYLIFEAGENTPORTAL$]"
+												"widgetName": "com_liferay_client_extension_web_internal_portlet_ClientExtensionEntryPortlet_20096_RAYLIFEAGENTPORTAL001"
 											}
 										},
 										"type": "Widget"
@@ -108,7 +106,19 @@
 											"fragmentConfig": {
 												"headingLevel": "h3"
 											},
-											"fragmentFields": [],
+											"fragmentFields": [
+												{
+													"id": "element-text",
+													"value": {
+														"fragmentLink": {},
+														"text": {
+															"value_i18n": {
+																"en_US": "Policies"
+															}
+														}
+													}
+												}
+											],
 											"indexed": true
 										},
 										"type": "Fragment"
@@ -116,10 +126,7 @@
 								],
 								"type": "FragmentDropZone"
 							},
-							{
-								"definition": {},
-								"type": "FragmentDropZone"
-							},
+							{"definition": {}, "type": "FragmentDropZone"},
 							{
 								"definition": {},
 								"pageElements": [
@@ -268,7 +275,7 @@
 																				"definition": {
 																					"fragment": {
 																						"key": "section",
-																						"siteKey": "Raylife AP 5"
+																						"siteKey": "AP-SITE NOVO"
 																					},
 																					"fragmentConfig": {
 																						"sectionId": "primary"
@@ -284,7 +291,7 @@
 																								"definition": {
 																									"fragment": {
 																										"key": "policies-total-active",
-																										"siteKey": "Raylife AP 5"
+																										"siteKey": "AP-SITE NOVO"
 																									},
 																									"fragmentConfig": {
 																										"textColor": ""
@@ -336,7 +343,7 @@
 																				"definition": {
 																					"fragment": {
 																						"key": "section",
-																						"siteKey": "Raylife AP 5"
+																						"siteKey": "AP-SITE NOVO"
 																					},
 																					"fragmentConfig": {
 																						"sectionId": "primary"
@@ -352,7 +359,7 @@
 																								"definition": {
 																									"fragment": {
 																										"key": "policies-expiring",
-																										"siteKey": "Raylife AP 5"
+																										"siteKey": "AP-SITE NOVO"
 																									},
 																									"fragmentConfig": {
 																										"textColor": ""
@@ -404,7 +411,7 @@
 																"definition": {
 																	"fragment": {
 																		"key": "section",
-																		"siteKey": "Raylife AP 5"
+																		"siteKey": "AP-SITE NOVO"
 																	},
 																	"fragmentConfig": {
 																		"sectionId": "primary"
@@ -420,7 +427,7 @@
 																				"definition": {
 																					"fragment": {
 																						"key": "policies-total-premium-due",
-																						"siteKey": "Raylife AP 5"
+																						"siteKey": "AP-SITE NOVO"
 																					},
 																					"fragmentConfig": {
 																						"textColor": ""
@@ -473,7 +480,7 @@
 														"definition": {
 															"fragment": {
 																"key": "section",
-																"siteKey": "Raylife AP 5"
+																"siteKey": "AP-SITE NOVO"
 															},
 															"fragmentConfig": {
 																"sectionId": "primary"
@@ -491,7 +498,7 @@
 																				"widgetConfig": {
 																					"properties": "route=policies-table"
 																				},
-																				"widgetName": "[$CLIENT_EXTENSION_ENTRY_ID:RAYLIFEAGENTPORTAL$]"
+																				"widgetName": "com_liferay_client_extension_web_internal_portlet_ClientExtensionEntryPortlet_20096_RAYLIFEAGENTPORTAL001"
 																			}
 																		},
 																		"type": "Widget"

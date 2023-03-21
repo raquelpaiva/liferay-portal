@@ -36,6 +36,7 @@
 .ray-sidebar-container .footer-bar .avatar-container,
 .ray-sidebar-container .middle-bar .menu-item-name {
 	overflow: hidden;
+	padding-left:5px;
 }
 
 .ray-sidebar-container .middle-bar div {
@@ -142,6 +143,11 @@
 .layout-container #Notifications .header-content .search-icon,
 .layout-container #Details .header-content .search-icon {
 	display: none !important;
+}
+
+.user-name-span{
+	align-content
+	
 }
 
 #Applications .page-header-container {
