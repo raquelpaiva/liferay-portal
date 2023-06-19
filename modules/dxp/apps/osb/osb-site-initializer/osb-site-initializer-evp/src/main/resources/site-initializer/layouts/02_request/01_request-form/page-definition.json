@@ -716,13 +716,37 @@
 														}
 													}
 												},
+													"value": {
+														"href": {
+															"mapping": {
+																"itemReference": {
+																	"className": "com.liferay.portal.kernel.model.Layout",
+																	"fields": [
+																		{
+																			"fieldName": "friendlyURL",
+																			"fieldValue": "/request"
+																		},
+																		{
+																			"fieldName": "privatePage",
+																			"fieldValue": "false"
+																		},
+																		{
+																			"fieldName": "siteKey",
+																			"fieldValue": "[$GROUP_KEY$]"
+																		}
+																	]
+																}
+															}
+														}
+													}
+												},
 												"text": {
 													"value_i18n": {
 														"en_US": "Cancel"
 													}
 												}
 											}
-										}
+										
 									],
 									"fragmentStyle": {
 										"marginRight": "3"
